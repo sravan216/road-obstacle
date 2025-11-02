@@ -19,3 +19,4 @@ It uses a camera (or video input) and Python’s OpenCV library to identify obst
   - NumPy – for array and image data manipulation  
   - (Optional) TensorFlow / YOLO model – for better object detection  
 - **IDE:** Visual Studio Code
+
