@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Output and dataset files (do not push large videos or generated output)
+output/
+**/output/
+# By default we ignore all `assets/` and media; but specific files (model weights or curated sample videos)
+# may be checked in using Git LFS. To allow committing specific files, add negation rules below.
+**/assets/
+**/*.mp4
+**/*.mov
+**/*.mkv
+
+# Allow tracking specific model/asset files via Git LFS (negate to include)
+!road obstacle night/road obstacle night/yolov8n.pt
+!road obstacle night/road obstacle night/assets/
+
+# Optional: ignore local model weights if you prefer to host them elsewhere
+# *.pt
